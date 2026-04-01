@@ -15,9 +15,10 @@ app = FastAPI(title="AI Advisor API")
 
 origins = [
     "http://localhost:3000",
-    "https://fin-insight-ai-mvp-j35a.vercel.app"  # React dev server
-    # you can add other allowed origins here
+    "https://fin-insight-ai-mvp-j35a.vercel.app",
+    "https://fin-insight-ai-mvp-j35a-jzbwng2a9-dubtech-webs-projects.vercel.app"
 ]
+
 
 app.add_middleware(
     CORSMiddleware,
