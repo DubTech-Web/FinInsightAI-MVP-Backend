@@ -1,0 +1,73 @@
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# ----------------------------
+# IDE / Editor Files
+# ----------------------------
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ----------------------------
+# OS-specific Files
+# ----------------------------
+.DS_Store
+Thumbs.db
+
+# ----------------------------
+# Database / Migrations
+# ----------------------------
+migrations/versions/
+*.db
+*.sqlite3
+
+# ----------------------------
+# Data & Notebooks
+# ----------------------------
+data/
+notebooks/
+*.csv
+*.xlsx
+*.ipynb_checkpoints/
+
+# ----------------------------
+# Logs / Cache
+# ----------------------------
+*.log
+logs/
+.cache/
+__pycache__/
+*.bak
+
+# ----------------------------
+# Testing / Reports
+# ----------------------------
+htmlcov/
+.coverage
+.pytest_cache/
+test_output/
+
+# ----------------------------
+# Project-specific
+# ----------------------------
+# Ignore generated or temporary scripts
+src/generate_data.py
+src/load_data.py
+src/data_cleaner.py
+
+# Ignore compiled models or artifacts
+*.model
+*.pkl
+*.joblib
+
+# Ignore environment variables
+.env
