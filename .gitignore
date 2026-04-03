@@ -71,3 +71,4 @@ src/data_cleaner.py
 
 # Ignore environment variables
 .env
+venv/

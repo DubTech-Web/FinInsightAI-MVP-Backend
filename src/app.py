@@ -19,7 +19,6 @@ origins = [
     "https://fin-insight-ai-mvp-j35a-jzbwng2a9-dubtech-webs-projects.vercel.app"
 ]
 
-
 app.add_middleware(
     CORSMiddleware,
     allow_origins=origins,       # allow these origins
